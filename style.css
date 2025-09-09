@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+ 
+header h1 {
+  font-size: 2.5rem;
+}
+ 
+header p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+ 
+nav {
+  background: #34495e;
+  text-align: center;
+  padding: 10px 0;
+}
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+ 
+nav a:hover {
+  color: #f39c12;
+}
+ 
+/* Sections */
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+ 
+section h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+ 
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+ 
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+ 
+th {
+  background: #f4f4f4;
+}
+ 
+/* Speakers */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+ 
+ul li {
+  margin: 8px 0;
+}
+ 
+ul li strong{
+  color: blue;
+}
+ 
+/* Contact Form */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+ 
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+ 
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+form button:hover {
+  background: #f39c12;
+}
+ 
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 30px;
+}
+ 
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+ 
+footer a:hover {
+  color: #f39c12;
+}
